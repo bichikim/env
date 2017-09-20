@@ -39,9 +39,7 @@
     "eslint-config-vue": "^2.0.2",
     "eslint-plugin-html": "^3.2.2",
     "eslint-plugin-vue": "^3.13.0",
-    "mocha": "^3.5.3",
-    "vue": "^2.4.4",
-    "vuex": "^2.4.0"
+    "mocha": "^3.5.3"
   },
   "dependencies": {
     "app-root-path": "^2.0.1",
