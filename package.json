@@ -1,5 +1,5 @@
 {
-  "name": "env",
+  "name": "env-loader",
   "version": "0.0.1",
   "description": "to load .env",
   "main": "dist/index.js",
