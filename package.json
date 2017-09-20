@@ -12,13 +12,7 @@
     "url": "git+https://github.com/bichikim/env.git"
   },
   "keywords": [
-    "redux",
-    "vuex",
-    "plugin",
-    "thunk",
-    "react",
-    "vue",
-    "asyn"
+    "env"
   ],
   "author": "bichi",
   "license": "MIT",
