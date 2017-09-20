@@ -1,0 +1,50 @@
+{
+  "name": "env",
+  "version": "0.0.1",
+  "description": "to load .env",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/babel-node node_modules/mocha/bin/_mocha --recursive -R spec",
+    "build": "./node_modules/.bin/babel ./src/index.js --out-file ./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bichikim/env.git"
+  },
+  "keywords": [
+    "redux",
+    "vuex",
+    "plugin",
+    "thunk",
+    "react",
+    "vue",
+    "asyn"
+  ],
+  "author": "bichi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bichikim/env/issues"
+  },
+  "homepage": "https://github.com/bichikim/env#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.0.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-1": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "chai": "^4.1.2",
+    "eslint": "^4.7.1",
+    "eslint-config-google": "^0.9.1",
+    "eslint-config-vue": "^2.0.2",
+    "eslint-plugin-html": "^3.2.2",
+    "eslint-plugin-vue": "^3.13.0",
+    "mocha": "^3.5.3",
+    "vue": "^2.4.4",
+    "vuex": "^2.4.0"
+  },
+  "dependencies": {
+    "app-root-path": "^2.0.1",
+    "lodash": "^4.17.4"
+  }
+}
