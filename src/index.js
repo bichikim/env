@@ -9,11 +9,11 @@ export default (options = {}) => {
     return savedEnv
   }
   savedEnv = {}
-  try {
+  try{
     const {name = '.env'} = options
     const envPath = options.path || root.path
     rowEnv = fs.readFileSync(path.resolve(envPath, name)).toString()
-  } catch (error){
+  }catch(error){
     console.warn(`[env] Warning it needs .env ${error}`)
     return savedEnv
   }
