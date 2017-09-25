@@ -14,7 +14,7 @@ export default (options = {}) => {
     const envPath = options.path || root.path
     rowEnv = fs.readFileSync(path.resolve(envPath, name)).toString()
   } catch (error){
-    console.warn(`[env] Warning server needs .env ${error}`)
+    console.warn(`[env] Warning it needs .env ${error}`)
     return savedEnv
   }
 

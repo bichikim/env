@@ -1,6 +1,6 @@
 {
   "name": "bichi-env",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "to load .env",
   "main": "dist/index.js",
   "scripts": {
