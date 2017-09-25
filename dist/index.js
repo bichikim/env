@@ -43,7 +43,7 @@ exports.default = function () {
     var envPath = options.path || _appRootPath2.default.path;
     rowEnv = _fs2.default.readFileSync(_path2.default.resolve(envPath, name)).toString();
   } catch (error) {
-    console.warn('[env] Warning server needs .env ' + error);
+    console.warn('[env] Warning it needs .env ' + error);
     return savedEnv;
   }
 
